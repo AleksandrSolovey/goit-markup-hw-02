@@ -37,6 +37,7 @@ body {
 }
 
 /* Логотип  */
+
 .logo {
     color: var(--accent-text-color);
     font-family: Raleway, sans-serif;
@@ -54,6 +55,7 @@ body {
 }
 
 /* < !-- Навигация по сайту  --> */
+
 .site-nav .link {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -68,6 +70,7 @@ body {
 }
 
 /* Контакты */
+
 .header-contacts,
 .site-nav {
     list-style: none;
@@ -95,6 +98,7 @@ body {
 }
 
 /* Фон*/
+
 .hero {
     background-color: var(--primary-bcg-color);
 }
@@ -111,6 +115,7 @@ body {
 
 /* Пункты*/
 /* Наш подход */
+
 .list-photo,
 .list-quality {
     list-style: none;
@@ -137,6 +142,7 @@ body {
 }
 
 /* Чем занимаемся */
+
 .work-title {
     font-weight: 700;
     font-size: 36px;
@@ -150,6 +156,7 @@ body {
 }
 
 /* Наша команда*/
+
 .list-name {
     list-style: none;
 }
@@ -177,6 +184,7 @@ body {
 }
 
 /* Футер*/
+
 .site-down {
     background-color: var(--primary-bcg-color);
     text-decoration: none;
@@ -213,6 +221,7 @@ body {
 }
 
 /* Портфолио */
+
 .portfolio-section {
     list-style: none;
 }
@@ -223,8 +232,6 @@ body {
     line-height: 1.62;
     color: var(--primary-text-color);
     background-color: var(--other-bcg-color);
-
-
 }
 
 .portfolio-section .button:hover,
