@@ -18,8 +18,20 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
-    line-height: 1.14;
-    font-weight: 400;
+    
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .button {
@@ -162,7 +174,7 @@ body {
 }
 
 .employees {
-    background-color: var(--secondary-bg-color);
+    background-color: #F5F4FA;
 }
 
 .employees-title {
